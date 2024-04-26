@@ -1,5 +1,7 @@
 # Collision Detector
 
+Team members: Mohamad Hajj, Ali Aljaberi, Kenan Ntambwe.
+
 ## High-level Description
 
 The Collision Detector project utilizes an STM32 microcontroller to control the direction of a motor (clockwise or counterclockwise) based on input from an ultrasonic sensor. The system is designed to detect obstacles using the ultrasonic sensor and rotate the motor in the opposite direction to avoid collision.
