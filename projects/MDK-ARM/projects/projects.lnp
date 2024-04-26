@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+"projects\startup_stm32f072xb.o"
+"projects\main.o"
+"projects\stm32f0xx_it.o"
+"projects\stm32f0xx_hal_msp.o"
+"projects\stm32f0xx_hal_tim.o"
+"projects\stm32f0xx_hal_tim_ex.o"
+"projects\stm32f0xx_hal_rcc.o"
+"projects\stm32f0xx_hal_rcc_ex.o"
+"projects\stm32f0xx_hal.o"
+"projects\stm32f0xx_hal_i2c.o"
+"projects\stm32f0xx_hal_i2c_ex.o"
+"projects\stm32f0xx_hal_gpio.o"
+"projects\stm32f0xx_hal_dma.o"
+"projects\stm32f0xx_hal_cortex.o"
+"projects\stm32f0xx_hal_pwr.o"
+"projects\stm32f0xx_hal_pwr_ex.o"
+"projects\stm32f0xx_hal_flash.o"
+"projects\stm32f0xx_hal_flash_ex.o"
+"projects\stm32f0xx_hal_exti.o"
+"projects\system_stm32f0xx.o"
+--strict --scatter "projects\projects.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "projects.map" -o projects\projects.axf
