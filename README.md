@@ -1,4 +1,4 @@
-# Collision Detector
+# Collision Prevention System
 
 Team members: Mohamad Hajj, Ali Aljaberi, Kenan Ntambwe.
 
