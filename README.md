@@ -1,5 +1,7 @@
 # Collision Prevention System
 
+Team members: Mohamad Hajj - Ali Aljaberi - Kenan Ntambwe
+
 ## High-level Description
 
 The Collision Prevention System project utilizes an STM32 microcontroller to control the direction of a motor (clockwise or counterclockwise) based on input from an ultrasonic sensor. The system integrates an ultrasonic sensor to detect obstacles. When an obstacle approaches, the motor rotates in the opposite direction to avoid collision.
